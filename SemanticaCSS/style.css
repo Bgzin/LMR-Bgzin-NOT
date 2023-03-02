@@ -1,0 +1,58 @@
+body {
+    background-color: darkgray;
+}
+
+#menu {
+    width: 101%; /*largura*/
+    height: 90px;/*altura*/
+    background-color: red;
+   
+}
+
+#BodyLogin{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 6%, rgba(222,29,29,1) 54%, rgba(255,190,99,1) 96%);
+    text-align: center;
+    font-size: 1em;
+}
+
+#divLogin{
+    height: 40px;
+}
+
+.LinkMenu {
+    color: aliceblue;
+    font-size: 2.2em;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-decoration: none;
+   
+    
+}
+#menu img {
+    height: 60px;
+}
+
+<label{
+    text-align: center;
+}
+
+.parte1 {
+    width: 100%;
+    height: 850px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+parte1 img{
+    height: 200px;
+    width: 85%;
+}
+.part1 h1{
+    color: red;
+}
+.parte1 p{
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+}
+/**/
