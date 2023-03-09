@@ -10,10 +10,12 @@ body {
 }
 
 #BodyLogin{
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 6%, rgba(222,29,29,1) 54%, rgba(255,190,99,1) 96%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 3%, rgba(9,9,121,1) 53%, rgba(0,64,255,1) 100%);
     text-align: center;
     font-size: 1em;
+ 
+    
 }
 
 #divLogin{
@@ -54,5 +56,51 @@ parte1 img{
 .parte1 p{
     font-family: 'Times New Roman', Times, serif;
     color: azure;
+}
+
+
+
+
+.divLogin{
+    margin-top: 240px;
+}
+
+h2{
+    color: aliceblue;
+}
+
+#bodyContato{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 3%, rgba(121,9,20,1) 53%, rgba(255,111,0,1) 100%);
+}
+
+.divContato{
+    text-align: center;
+    margin-top: 220px;
+
+}
+
+#Cabecalho{
+    color: orange;
+    text-align: center;
+}
+ 
+#msg{
+   margin-bottom: 400px;
+    color: blue;
+}
+
+#txtArea{
+    margin-top: 20px;
+  background-color: transparent;
+}
+
+#emailm{
+    margin-right: 35px;
+}
+
+#nomem{
+    margin-right: 37px;
+}
 }
 /**/
