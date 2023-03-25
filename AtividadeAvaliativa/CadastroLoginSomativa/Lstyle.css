@@ -1,0 +1,31 @@
+
+.BLogin{
+    margin-top: 180px;
+    gap: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    
+    
+   
+
+
+}
+
+
+#BTM1{
+    background-color: white;
+}
+
+#BTM2{
+    background-color: white;
+}
+
+#Pswrd{
+   
+  
+}

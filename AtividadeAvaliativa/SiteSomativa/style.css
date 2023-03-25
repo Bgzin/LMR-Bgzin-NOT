@@ -1,0 +1,18 @@
+.menu{
+    width: 101%; /*largura*/
+    height: 250px;/*altura*/
+     background-color: aliceblue;
+}
+
+.LinkMenu{
+    color: black;
+    font-size: 1.1em;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.Login{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 200px;
+}
