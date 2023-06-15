@@ -1,0 +1,169 @@
+/* Estilos básicos para a navbar */
+body {
+  background-image: url(img/1008784.png);
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: rgb(65, 6, 88);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(162, 0, 255, 0.247);
+  height: 80px;
+}
+
+
+.navbar img {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+
+.navbar-center {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+/* Estilos para os links na navbar */
+.navbar-link {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.5s;
+  text-shadow: 3px 1px 4px#6f00ff;
+}
+
+.navbar-link:hover {
+  color: #8982f1;
+}
+
+/* Estilos para o menu suspenso */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  padding: 10px;
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: #fbfbfb;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.5s;
+  text-shadow: 3px 1px 4px#6f00ff;
+}
+
+.dropdown-content a:hover {
+  color: #8982f1;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.form {
+  margin-left: 11%;
+  margin-top: 10%;
+  border-radius: 4%;
+  background-image: url(img/ai\ minha\ vuaida.png);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-floating {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.form h1 {
+  color: rgb(116, 115, 117);
+  font-family: 'Bitter', serif;
+}
+
+.form button {
+  color: rgb(3, 3, 3);
+  font-family: 'Bitter', serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.form .lembrarsenha {
+  color: rgb(236, 202, 9);
+  font-family: 'Bitter', serif;
+}
+.cadastro a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  /*background: linear-gradient(to left, #280669, #000000);*/
+  background: #832197;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 10px 0px 10px rgb(162, 0, 255, 0.247);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.5s;
+  text-shadow: 3px 1px 4px#6f00ff;
+
+}
+
+footer a:hover {
+  color: #8982f1;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.5s;
+}
+
+.social-icons a:hover {
+  color: #8982f1;
+}
