@@ -1,7 +1,8 @@
 function dis(val) {
     document.getElementById("result").value += val
 }
-//basicamente a myFunctio espera o evento "event " ser desparado, no caso quando o cliente clicar em qualquer tecla.
+//basicamente a myFunctio espera o evento "event " ser desparado, a logica por tras dela é que ela verifica se algum desses numeros foram digitados,
+// se sim, adiciona o numero digitado no display 
 function myFunction(event) {
     if (event.key == '0' || event.key == '1'
         || event.key == '2' || event.key == '3'
