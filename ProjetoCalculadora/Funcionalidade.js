@@ -21,12 +21,12 @@ cal.onkeyup = function (event) {
         console.log("Enter");
         let x = document.getElementById("result").value
         console.log(x);
-        solve();
+        resolver();
     }
 }
 
 
-function solve() {
+function resolver() {
     let x = document.getElementById("result").value  //aqui o script le os numeros digitados / operaçoes inseridas na pagina HTML 
     let y = math.evaluate(x) //aqui é onde a biblioteca math é usada para reconhecer as operaçoes matematicas utilizadas
     document.getElementById("result").value = y //aqui o resultado do cálculo é atribuído ao campo de entrada com o ID "result
