@@ -4,19 +4,19 @@
 <head>
       <title>Calculadora</title>
 
-      <!-- link do script do criador -->
-    <script src=
-"https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
-        integrity=
-"sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"></script>
-    <script src=
-"https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
-        integrity=
-"sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"></script>
+      <!-- link do script do criador que eu editei -->
+      <script src=
+      "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
+              integrity=
+      "sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
+              crossorigin="anonymous"
+              referrerpolicy="no-referrer"></script>
+          <script src=
+      "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+              integrity=
+      "sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+              crossorigin="anonymous"
+              referrerpolicy="no-referrer"></script>
     
     <!-- Link do css-->>
    <link rel="stylesheet" href="style.css">
@@ -25,6 +25,9 @@
 <body>
     
       <!--Area que contem os botões e adiciona as funcionalidades de cada -->
+       <!-- A tag "tr" representa uma linha em uma tabela, neste caso, o valor de 1,2,3 e divisão (/) -->
+      <!-- a palavra onkeydown chama uma função antes da onkeypress acontecer, seria antes do usuario usar alguma tecla-->
+      <!-- a função event é puxada diretamente da funcionalidade js que é onde roda os calculos e os ifs para mostar na tela-->
     <table id="calcu">
         <tr>
             <td colspan="3"><input type="text" id="result"></td>
@@ -42,7 +45,7 @@
         </tr>
         <tr>
         <!-- A tag "tr" representa uma linha em uma tabela, neste caso, o valor de 4,5,6 e mutiplicação (*) -->
-        <!-- a palavra onkeydown chama uma função antes da onkeypress acontecer, seria antes do usuario usar alguma tecla-->
+        
             <td><input type="button" value="4" onclick="dis('4')"
                         onkeydown="myFunction(event)"> </td>
             <td><input type="button" value="5" onclick="dis('5')"
