@@ -15,7 +15,7 @@ function myFunction(event) { //A condição if que verifica se a tecla pressiona
         document.getElementById("result").value += event.key;
 }
 
-//aqui basicamente quando o usiario clicar enter no teclado vai funcionar 
+//aqui basicamente quando o usuario clicar enter no teclado vai funcionar 
 var cal = document.getElementById("calcu");
 cal.onkeyup = function (event) {
     if (event.keyCode === 13) {
